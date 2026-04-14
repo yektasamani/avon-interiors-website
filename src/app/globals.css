@@ -1,0 +1,40 @@
+:root {
+    --cream: #f5f2ec;
+    --charcoal: #2c2c2c;
+    --olive: #6b7c5c;
+    --light-olive: #8a9e78;
+    --tan: #9a9488;
+    --dark-olive: #4a5944;
+    --white: #ffffff;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: clip;
+}
+
+body {
+    color: var(--charcoal);
+    background: var(--cream);
+    font-family: var(--font-inter), sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-playfair-display), serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
