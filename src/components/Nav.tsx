@@ -7,7 +7,8 @@ export default function Nav() {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
         <nav className={styles.nav}>
-            <div className={styles.Logo}>
+            <div className={styles.logo}>
+                <Image src="/logo.png" alt="logo" width={60} height={60}></Image>
                 <h1 className={styles.navName}>Avon Interiors</h1>
             </div>
             <button
