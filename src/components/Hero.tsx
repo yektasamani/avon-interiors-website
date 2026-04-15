@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <section className={styles.hero}>
             <Image
-                src="/hero1.png"
+                src="/hero3.png"
                 alt="Hero Image"
                 fill
                 loading="eager"
