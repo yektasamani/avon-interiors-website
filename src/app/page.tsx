@@ -1,8 +1,9 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
-/* import Portfolio from "@/components/Portfolio";
 import About from "@/components/About";
 import Story from "@/components/Story";
+/* 
+import Portfolio from "@/components/Portfolio";
 import Services from "@/components/Services";
 import Process from "@/components/Process";
 import Testimonial from "@/components/Testimonial";
@@ -13,9 +14,9 @@ export default function Home() {
         <main>
             <Nav />
             <Hero />
-            {/*<Portfolio />
-            <About />
             <Story />
+            <About />
+            {/*<Portfolio />
             <Services />
             <Process />
             <Testimonial />
