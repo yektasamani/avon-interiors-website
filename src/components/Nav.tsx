@@ -16,7 +16,7 @@ export default function Nav() {
                     style={{ display: "block" }}
                 />
 
-                <h1 className={styles.navName}>Avon Interiors</h1>
+                <h1 className={styles.navName}>Avon</h1>
             </div>
             <button
                 className={styles.hamburger}
