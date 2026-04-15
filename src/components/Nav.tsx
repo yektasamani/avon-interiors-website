@@ -8,7 +8,14 @@ export default function Nav() {
     return (
         <nav className={styles.nav}>
             <div className={styles.logo}>
-                <Image src="/logo.png" alt="logo" width={60} height={60}></Image>
+                <Image
+                    src="/logo.png"
+                    alt="logo"
+                    width={60}
+                    height={60}
+                    style={{ display: "block" }}
+                />
+
                 <h1 className={styles.navName}>Avon Interiors</h1>
             </div>
             <button
