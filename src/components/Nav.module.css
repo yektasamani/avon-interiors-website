@@ -1,11 +1,12 @@
 .nav {
     display: flex;
-    position: fixed;
+    position: relative;
+    top: 0;
     width: 100%;
     z-index: 100;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 3rem;
+    padding: 0.75rem 3rem;
 }
 
 .logo {

@@ -1,6 +1,6 @@
 import Nav from "@/components/Nav";
-/* import Hero from "@/components/Hero";
-import Portfolio from "@/components/Portfolio";
+import Hero from "@/components/Hero";
+/* import Portfolio from "@/components/Portfolio";
 import About from "@/components/About";
 import Story from "@/components/Story";
 import Services from "@/components/Services";
@@ -12,8 +12,8 @@ export default function Home() {
     return (
         <main>
             <Nav />
-            {/* <Hero />
-            <Portfolio />
+            <Hero />
+            {/*<Portfolio />
             <About />
             <Story />
             <Services />
