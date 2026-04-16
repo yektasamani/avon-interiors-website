@@ -1,74 +1,54 @@
 .story {
     display: flex;
+    position: relative;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
     padding: 2rem 8rem;
     background: var(--white);
+    min-height: 500px;
 }
 
-.sectionContent {
+.backgroundLogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    opacity: 0.03;
+}
+
+.inspo {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 4rem;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    gap: 2rem;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
-.sectionTitle {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
-    margin-bottom: 2rem;
+.inspo h2 {
+    color: var(--light-olive);
+    font-size: 3.5rem;
+    letter-spacing: 0.25rem;
 }
 
-.sectionTitle span {
-    font-family: var(--font-playfair-display), serif;
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--gold);
-    white-space: nowrap;
-}
-
-.sectionTitle::before {
-    content: "";
-    flex: 1;
+.dividerH {
+    width: 300px;
     height: 1px;
-    background: var(--gold);
-}
-.sectionTitle::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: var(--gold);
+    background: var(--tan);
+    margin: 0 auto;
 }
 
-.leftCol {
-    flex: 1;
-    align-self: center;
+.inspo p {
+    color: var(--dark-olive);
 }
 
-.rightCol {
-    flex: 1;
-}
-
-.headshot {
-    object-fit: cover;
-    border: 2px solid var(--gold);
-}
-
-.bio {
-    font-size: 1rem;
-    line-height: 1.7;
-    color: var(--forest-green);
-    opacity: 0.85;
-    max-width: 480px;
-    margin-top: 1rem;
-}
-
-@media (max-width: 768) {
-    .about {
+@media (max-width: 768px) {
+    .story {
         padding: 2rem;
     }
 

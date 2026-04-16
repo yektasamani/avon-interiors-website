@@ -1,24 +1,31 @@
 import styles from "./Story.module.css";
 import Image from "next/image";
 
-export default function About() {
+export default function Story() {
     return (
         <section id="story" className={styles.story}>
-            <div className={styles.sectionContent}>
-                <div className={styles.leftCol}>
-                    <div className={styles.headshot}>
-                        <Image
-                            src="/eyvan.png"
-                            alt="headshot"
-                            className={styles.headshot}
-                            width={600}
-                            height={440}
-                        />
-                    </div>
-                </div>
-                <div className={styles.rightCol}>
-                    <p className={styles.bio}>description</p>
-                </div>
+            <div className={styles.backgroundLogo}>
+                <Image
+                    src="/logo.png"
+                    alt="logo"
+                    fill
+                    sizes="500px"
+                    style={{ objectFit: "contain" }}
+                />
+            </div>
+            <div className={styles.inspo}>
+                <h2>Inspired by Eyvan</h2>
+                <div className={styles.dividerH} />
+                <p>
+                    In classical Persian, eyvān describes the most prominent and purposeful part of
+                    a building. The space designed to matter most.
+                </p>
+                <div className={styles.dividerV} />
+                <p>
+                    Avon was founded on that same idea. Every room treated as the most important
+                    one, every home designed to feel whole. Rooted in the people who live there,
+                    from the very first conversation.
+                </p>
             </div>
         </section>
     );
