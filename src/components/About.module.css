@@ -15,35 +15,6 @@
     gap: 4rem;
 }
 
-.sectionTitle {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
-    margin-bottom: 2rem;
-}
-
-.sectionTitle span {
-    font-family: var(--font-playfair-display), serif;
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--gold);
-    white-space: nowrap;
-}
-
-.sectionTitle::before {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: var(--gold);
-}
-.sectionTitle::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: var(--gold);
-}
-
 .leftCol {
     flex: 1;
     align-self: center;
@@ -56,7 +27,6 @@
 .headshot {
     object-fit: cover;
     border-radius: 10% 10%;
-    border: 2px solid var(--gold);
 }
 
 .bio {
@@ -68,7 +38,7 @@
     margin-top: 1rem;
 }
 
-@media (max-width: 768) {
+@media (max-width: 768px) {
     .about {
         padding: 2rem;
     }
