@@ -24,6 +24,11 @@
     flex: 1;
 }
 
+.rightCol h2 {
+    color: var(--dark-olive);
+    font-size: 3rem;
+}
+
 .headshot {
     object-fit: cover;
     border-radius: 10% 10%;
@@ -32,7 +37,7 @@
 .bio {
     font-size: 1rem;
     line-height: 1.7;
-    color: var(--charcoal);
+    color: var(--chadrcoal);
     opacity: 0.85;
     max-width: 480px;
     margin-top: 1rem;

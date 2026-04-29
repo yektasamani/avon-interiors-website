@@ -4,12 +4,13 @@ import About from "@/components/About";
 import Story from "@/components/Story";
 import Services from "@/components/Services";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 /* 
 import Portfolio from "@/components/Portfolio";
 
 import Process from "@/components/Process";
 import Testimonial from "@/components/Testimonial";
-import Footer from "@/components/Footer"; */
+*/
 
 export default function Home() {
     return (
@@ -20,11 +21,12 @@ export default function Home() {
             <About />
             <Services />
             <Contact />
+            <Footer />
             {/*<Portfolio />
             
             <Process />
             <Testimonial />
-            <Footer /> */}
+             */}
         </main>
     );
 }

@@ -21,7 +21,7 @@ export default function Contact() {
         }
     };
     return (
-        <section className={styles.contact}>
+        <section id="contact" className={styles.contact}>
             <h2>Get in Touch</h2>
             <p>Let's bring your space to life</p>
             <form className={styles.form} onSubmit={handleSubmit}>
@@ -39,18 +39,22 @@ export default function Contact() {
                 </button>
             </form>
             <div className={styles.links}>
-                <div className={styles.card}>
+                <a href="mailto:avon.interiordecorating@gmail.com" className={styles.card}>
                     <PiEnvelope size={48} color="var(--olive)" />
-                    <span>Email</span>
-                </div>
-                <div className={styles.card}>
+                    Email
+                </a>
+
+                <a
+                    href="https://www.instagram.com/avon.interiors?igsh=MW14M21obW4zMnljMw%3D%3D&utm_source=qr"
+                    className={styles.card}
+                >
                     <PiInstagramLogo size={48} color="var(--olive)" />
-                    <span>Instagram</span>
-                </div>
-                <div className={styles.card}>
+                    Instagram
+                </a>
+                {/* <div className={styles.card}>
                     <PiCalendar size={48} color="var(--olive)" />
                     <span>Calendly</span>
-                </div>
+                </div> */}
             </div>
         </section>
     );

@@ -29,12 +29,12 @@ export default function Nav() {
             </button>
             <ul className={`${styles.navLinks} ${menuOpen ? styles.open : ""}`}>
                 <li>
-                    <a href="#story" onClick={() => setMenuOpen(false)}>
+                    <a href="/#story" onClick={() => setMenuOpen(false)}>
                         About
                     </a>
                 </li>
                 <li>
-                    <a href="#services" onClick={() => setMenuOpen(false)}>
+                    <a href="/services" onClick={() => setMenuOpen(false)}>
                         Services
                     </a>
                 </li>
@@ -44,7 +44,7 @@ export default function Nav() {
                     </a>
                 </li> */}
                 <li>
-                    <a href="#contact" onClick={() => setMenuOpen(false)}>
+                    <a href="/#contact" onClick={() => setMenuOpen(false)}>
                         Contact
                     </a>
                 </li>
