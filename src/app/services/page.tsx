@@ -60,7 +60,6 @@ export default function ServicePage() {
             </section>
             <section className={styles.cta}>
                 <h2>Ready to transform your space?</h2>
-                <p>Let's talk.</p>
                 <a href="/#contact" className={styles.ctaBtn}>
                     Get in Touch
                 </a>

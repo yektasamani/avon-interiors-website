@@ -48,3 +48,18 @@
     text-decoration: none;
     color: inherit;
 }
+@media (max-width: 768px) {
+    .contact {
+        padding: 2rem 1.5rem;
+    }
+
+    .input,
+    .textarea {
+        font-size: 1rem;
+    }
+
+    .links {
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+}

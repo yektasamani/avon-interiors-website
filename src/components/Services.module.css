@@ -32,3 +32,15 @@
 .card h3 {
     font-weight: 300;
 }
+
+@media (max-width: 768px) {
+    .grid {
+        flex-wrap: wrap;
+        gap: 2.5rem;
+        justify-content: space-around;
+    }
+
+    .card {
+        flex: 0 0 calc(50% - 2rem);
+    }
+}

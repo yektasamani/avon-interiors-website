@@ -49,3 +49,18 @@
     border: 1px solid var(--white);
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .content {
+        padding: 0 2rem;
+    }
+
+    .content h1 {
+        font-size: 2.2rem;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}

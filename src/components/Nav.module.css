@@ -64,6 +64,7 @@
         right: 0;
         flex-direction: column;
         background: var(--olive);
+        color: var(--white);
         padding: 1.5rem 2rem;
         gap: 1.5rem;
         border-bottom: 1px solid var(--dark-olive);
@@ -72,5 +73,9 @@
 
     .navLinks.open {
         display: flex;
+    }
+
+    .nav {
+        position: relative;
     }
 }
