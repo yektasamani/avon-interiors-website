@@ -73,3 +73,22 @@
         border-radius: 10% 10%;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .about {
+        padding: 2rem 3rem;
+    }
+
+    .sectionContent {
+        gap: 2rem;
+    }
+
+    .rightCol h2 {
+        font-size: 2rem;
+    }
+
+    .headshot {
+        width: 100%;
+        height: auto;
+    }
+}
